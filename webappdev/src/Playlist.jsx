@@ -6,7 +6,7 @@ function Playlist({ onSongSelect }) {
   const [songs, setSongs] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:5001/api/music')
+    axios.get('http://rmp.anrymart.com/api/music')
       .then(response => setSongs(response.data))
       .catch(error => console.error('Error fetching songs:', error));
   }, []);
