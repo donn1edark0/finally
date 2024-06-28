@@ -83,13 +83,3 @@ Sure, here’s a more concise version with code snippets:
   const audioRef = useRef(null);
   const [isPlaying, setIsPlaying] = useState(false);
   ```
-
-### 7. Integrating Material-UI with Custom CSS
-- **Challenge**: Overriding default styles.
-- **Used**: Custom CSS with Material-UI classes.
-
-  ```css
-  .MuiIconButton-root {
-    color: #ff9800;
-  }
-  
